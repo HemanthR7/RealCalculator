@@ -1,0 +1,46 @@
+.container{
+    width: 300px;
+    border-radius: 6px;
+    padding: 15px;
+    margin: 20px auto;
+    background: linear-gradient(145deg, #1a1818, #1f1d1d);
+ 
+}
+input{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 10px 10px;
+    outline: none;
+    font-size: 25px;
+    color:white;
+background: linear-gradient(145deg, #188b52, #0e8148);
+font-weight: bolder;
+
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: content-box;
+    margin-top: 15px;
+    
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bolder;
+    background: linear-gradient(145deg, #282626, #2f2d2d);
+    box-shadow:  20px 20px 51px #252424,
+                 -20px -20px 51px #333030;
+             color: white;
+}
+
